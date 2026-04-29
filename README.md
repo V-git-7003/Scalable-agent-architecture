@@ -1,6 +1,6 @@
 # Scalable-agent-architecture
 
-# Agent Platform Architecture (Minimal Scalable Setup)
+## Agent Platform Architecture (Minimal Scalable Setup)
 
 This project implements a scalable multi-agent architecture designed to support 100+ domain-specific agents with clear ownership, discoverability, and extensibility.
 
