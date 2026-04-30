@@ -13,15 +13,15 @@ The system follows a **Gateway → Router → Registry → Agent** pattern to co
 ```
 User Input
    ↓
-Gateway
+Gateway (fastapi app)
    ↓
-Router (LLM / Rules)
+Router (LLM / Rules inside gateway)
    ↓
 Capability Identified (e.g., "create_invoice")
    ↓
-Agent Registry Lookup
+Agent Registry Lookup (fastapi app)
    ↓
-Agent चयन (Selection)
+Agent (each agent is a separate fastapi app)
    ↓
 Agent Invocation
    ↓
